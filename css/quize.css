@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+  background: gray;
+}
+.app{
+    background: gold;
+    width: 80%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 20px;
+}
+.app h1{
+    font-size:30px;
+    font-weight: 700;
+    color: #333;
+    border-bottom: 1px solid #333;
+    padding-bottom: 30px;
+
+}
+.quiz{
+    padding: 20px 0;
+}
+.quiz h2{
+    font-size: 20px;
+    color: #535353;
+    font-weight: 700;
+}
+.btn{
+    background:whitesmoke;
+    color: #222;
+    font-weight: 600;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 15px;
+    margin: 15px 0;
+    text-align: left;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s;
+}.btn:hover:not([disabled]){
+    background: blue;
+    color: #fff;
+}
+.btn:disabled{
+    cursor: no-drop;
+}
+#next-btn{
+    background: #535353;
+    color: white;
+    font-weight: 600;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 25px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+}
+.correct{
+    background: green;
+
+}
+.inCorrect{
+    background: red;
+}
+form{
+    background:gold;
+    width: 80%;
+    max-width: 400px;
+    margin: 150px auto 0;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;   
+   
+}
+form h2{
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 700;
+    font-variant: small-caps;
+}
+
+ form input{
+    display: block;
+    justify-content: center;
+    width: 80%;
+    padding: 10px 10px 10px;
+    outline: 0;
+    border: 0;
+    border-radius: 5px;
+    
+    margin: 15px auto 0;
+}
+form input:hover{
+    background: brown;
+    color: white;
+}
+::placeholder{
+    font-size: 15px;
+    text-transform: capitalize;
+    
+}
+form button:hover
+{
+    background: #222;
+    color: antiquewhite;
+}
+form button a:hover{
+    color: antiquewhite;
+}
+form button{
+    outline: 0;
+    border: 0;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom:10px ;
+    padding-right: 15px;
+    cursor: pointer;
+    margin-top: 15px;
+
+}
+a{
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+form h1{
+    text-transform: capitalize;
+    font-variant: small-caps;
+}
